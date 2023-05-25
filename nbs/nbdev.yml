@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "burstmaster"
-  site-url: "https://conorkeogh.github.io/burstmaster"
+  title: "triggermate"
+  site-url: "https://conorkeogh.github.io/triggermate"
   description: "Device and drivers for generating trigger signals to stimulate with custom parameters"
   repo-branch: main
-  repo-url: "https://github.com/conorkeogh/burstmaster"
+  repo-url: "https://github.com/conorkeogh/triggermate"
