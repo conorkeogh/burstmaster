@@ -13,12 +13,13 @@ website:
   twitter-card: true
   open-graph: true
   repo-actions: [issue]
-  favicon: "oni.png"
+  favicon: "oni_blue.png"
   navbar:
     background: dark
     search: true
     logo: "oni.png"
   sidebar:
     style: floating
+    logo: "oni.png"
 
 metadata-files: [nbdev.yml, sidebar.yml]
