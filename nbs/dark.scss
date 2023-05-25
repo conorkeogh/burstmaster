@@ -3,3 +3,5 @@ $body-bg: #002147;
 $dark: mix(#002147, #fff, 97);
     
 /*-- scss:rules --*/
+.dark-mode { display: block; }
+.light-mode { display: none; }

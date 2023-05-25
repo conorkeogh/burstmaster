@@ -20,6 +20,5 @@ website:
     logo: "oni.png"
   sidebar:
     style: floating
-    logo: "oni.png"
-
+    
 metadata-files: [nbdev.yml, sidebar.yml]
