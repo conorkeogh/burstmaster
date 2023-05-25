@@ -1,0 +1,24 @@
+project:
+  type: website
+
+format:
+  html:
+    theme:
+        dark: [darkly, dark.scss]
+        light: [flatly, light.scss]
+    css: styles.css
+    toc: true
+
+website:
+  twitter-card: true
+  open-graph: true
+  repo-actions: [issue]
+  favicon: "oni.png"
+  navbar:
+    background: dark
+    search: true
+    logo: "oni.png"
+  sidebar:
+    style: floating
+
+metadata-files: [nbdev.yml, sidebar.yml]
