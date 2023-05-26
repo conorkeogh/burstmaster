@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "The TriggerMate system was developed by the Oxford Neural Interfacing group for use in neuromodulation research. Please contact us with any questions or to report any issues with the system."
+  },
+  {
+    "objectID": "contact.html#oxford-neural-interfacing",
+    "href": "contact.html#oxford-neural-interfacing",
+    "title": "Contact",
+    "section": "Oxford Neural Interfacing",
+    "text": "Oxford Neural Interfacing\nFurther information on the Oxford Neural interfacing group, our work and contact details can be found on the group website."
+  },
+  {
+    "objectID": "contact.html#github",
+    "href": "contact.html#github",
+    "title": "Contact",
+    "section": "GitHub",
+    "text": "GitHub\nInformation on the TriggerMate device can be found on the project’s GitHub respository.\nIssues can be reported via GitHub here or via the “Report an issue” link in the sidebar."
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "Email",
+    "text": "Email\nAny further questions or issues related to the device can be directed to Conor Keogh: conor.keogh@nds.ox.ac.uk.\n\n\n\n\nOxford Neural Interfacing 2023\n\n\n\n\n\n\n\nOxford Neural Interfacing 2023"
+  },
+  {
+    "objectID": "triggering.html",
+    "href": "triggering.html",
+    "title": "Triggering",
+    "section": "",
+    "text": "After setting up the device, stimulation triggers can be sent via the output port. These then activate the target stimulator, producing stimulation with the desired parameters. By altering the stimulation mode and settings, a wide range of stimulation parameters can be applied."
+  },
+  {
+    "objectID": "triggering.html#controls",
+    "href": "triggering.html#controls",
+    "title": "Triggering",
+    "section": "Controls",
+    "text": "Controls\nThe device has three stimulation modes, normal, high frequency and burst, each of which has its own configurable parameters. The stimulation mode and parameters are set using the device interface.\nThe current mode and the parameters for that mode are displayed on the LCD screen on the front panel. A flashing cursor shows which parameter is currently selected.\nRotating the control knob will alter the currently selected setting within its allowed range. If the mode is selected, this will alter the currently selected stimulation mode. Pressing the knob will move the selection to the next setting on the screen, allowing each parameter to be set. The flashing cursor will move to the newly selected parameter and this can then be set using the control knob."
+  },
+  {
+    "objectID": "triggering.html#normal-mode",
+    "href": "triggering.html#normal-mode",
+    "title": "Triggering",
+    "section": "Normal mode",
+    "text": "Normal mode\nNormal mode provides a range of parameters for tonic stimulation at low frequencies. Stimulation is applied regularly at the specified frequency. The applied frequency can be adjusted with high resolution.\nThe configurable parameters are shown in the following table:\n\n\n\nParameter\nUnits\nMinimum\nMaximum\n\n\n\n\nFrequency\nHz\n0\n100\n\n\n\nAn example of the stimulation using normal mode at 40Hz along with the synchronisation output is shown below."
+  },
+  {
+    "objectID": "triggering.html#high-frequency-mode",
+    "href": "triggering.html#high-frequency-mode",
+    "title": "Triggering",
+    "section": "High frequency mode",
+    "text": "High frequency mode\nHigh frequency mode provides a range of parameters for tonic stimulation at high frequencies. Stimulation is applied regularly at the specified frequency. The applied frequency can be adjusted at kHz resolution.\nThe configurable parameters are shown in the following table:\n\n\n\nParameter\nUnits\nMinimum\nMaximum\n\n\n\n\nFrequency\nkHz\n0\n10\n\n\n\nAn example of the stimulation using high frequency mode at 1kHz along with the synchronisation output is shown below."
+  },
+  {
+    "objectID": "triggering.html#burst-mode",
+    "href": "triggering.html#burst-mode",
+    "title": "Triggering",
+    "section": "Burst mode",
+    "text": "Burst mode\nBurst mode provides a range of parameters for applying burst stimulation. A fixed number of trigger pulses are sent at high frequency, with these bursts repeated at regular intervals. This stimulation setting is defined by the frequency, i.e. the number of bursts applied per second; the intra-burst frequency, i.e. the frequency of pulses within a burst; and the duration, i.e. the number of pulses within a burst.\nThe configurable parameters are shown in the following table:\n\n\n\nParameter\nUnits\nMinimum\nMaximum\n\n\n\n\nFrequency\nHz\n0\n50\n\n\nIntra-burst frequency\nkHz\n0\n10\n\n\nDuration\nPulses\n0\n20\n\n\n\nAn example of the stimulation using burst mode with a burst frequency of 40Hz, an intra-burst frequency of 1kHz and a burst duration of five pulses along with the synchronisation output is shown below.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOxford Neural Interfacing 2023\n\n\n\n\n\n\n\nOxford Neural Interfacing 2023"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "TriggerMate",
+    "section": "",
+    "text": "The TriggerMate provides a simple way to generate stimulation pulse trains with custom parameters.\nThe device is connected to a stimulation system using the trigger port. The stimulation parameters can then be set using the device controls. Pulses will then be generated to trigger the stimulator according to the desired parameters. This provides great flexibility in controlling stimulation."
+  },
+  {
+    "objectID": "index.html#set-up",
+    "href": "index.html#set-up",
+    "title": "TriggerMate",
+    "section": "Set up",
+    "text": "Set up\nThe device needs to be powered via its microUSB connector. The trigger output BNC port should then be connected to the target stimulator’s trigger port. Stimulation settings can then be set using the device interface.\nA synchronisation output is provided via a second BNC port. This allows the device to provide an input to trigger, for example, commonly used EMG systems where stimulation is used in combination with electrophysiological recording.\nFurther detail is provided in the setup section."
+  },
+  {
+    "objectID": "index.html#triggering",
+    "href": "index.html#triggering",
+    "title": "TriggerMate",
+    "section": "Triggering",
+    "text": "Triggering\nOnce connected to the stimulation system, the device will start to generate trigger pulses according to the parameters set on the device interface. Note that the device generates only triggers to determine the timing and frequency of stimulation; the parameters of individual pulses should be set on the target stimulator.\nThe device provides three modes of stimulation with different behaviours: normal mode for tonic stimulation at low frequencies; high frequency mode for tonic stimulation at multiple kilohertz; and burst mode for stimulation using bursts of high-frequency pulses.\nFurther detail is provided in the triggering section."
+  },
+  {
+    "objectID": "index.html#example-applications",
+    "href": "index.html#example-applications",
+    "title": "TriggerMate",
+    "section": "Example applications",
+    "text": "Example applications\nThe device provides a convenient means of testing the effects of stimulation with varying parameters in any setting. The ability to easily and rapidly alter stimulation settings provides great flexibility in the stimulation applied.\nExamples of normal stimulation at 40Hz, high frequency stimulation at 1kHz and burst stimulation with a burst frequency of 40Hz, and intra-burst frequency of 1kHz and 5 pulses per burst are shown below.\n\n\n\n\n\n\n\n\n\n\nFurther synchronisation outputs allow the device to be easily provide trigger inputs to standard EMG systems, facilitating the investigation of the electrophysiological effects of stimulation with varying parameters.\n\n\n\n\nOxford Neural Interfacing 2023\n\n\n\n\n\n\n\nOxford Neural Interfacing 2023"
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Setup",
+    "section": "",
+    "text": "In order to generate stimulation with the desired parameters, the device needs to be powered and connected to the target stimulator. A second output can be connected to a recording system if synchronised recordings are required during stimulation."
+  },
+  {
+    "objectID": "setup.html#power",
+    "href": "setup.html#power",
+    "title": "Setup",
+    "section": "Power",
+    "text": "Power\nThe device should be connected to power using a standard USB cable. The device uses a microUSB connector.\n5V should be provided over the USB connector to power the device. This can be achieved by connecting the device to a USB port on a host computer or via a USB to mains adapter."
+  },
+  {
+    "objectID": "setup.html#connecting-to-stimulation-system",
+    "href": "setup.html#connecting-to-stimulation-system",
+    "title": "Setup",
+    "section": "Connecting to stimulation system",
+    "text": "Connecting to stimulation system\nThe trigger out connector of the device should be connected to the trigger in connector of the target stimulator.\nThe device provides a standard BNC output for the trigger signal. The trigger signal remains at 0V when not stimulating and generates square-wave pulses at 5V for 25\\(\\mu\\)s to trigger the target stimulator.\nThe input device must therefore tolerate a 5V input. Most stimulation systems will be triggered by a rising edge, making the duration of the trigger pulse unimportant. However, some electrophysiological recording systems require a trigger pulse of a fixed duration to trigger. 25\\(\\mu\\)s is sufficient to trigger most commercial recording systems without excessively limiting the maximum achievable stimulation frequency."
+  },
+  {
+    "objectID": "setup.html#using-synchronisation-signal",
+    "href": "setup.html#using-synchronisation-signal",
+    "title": "Setup",
+    "section": "Using synchronisation signal",
+    "text": "Using synchronisation signal\nThe synchronisation output provides a means of linking the device to a recording system in order to trigger recordings time-locked to stimulation.\nThis is provided via a second BNC output. This should be connected to the trigger input of the recording system.\nIn normal and high frequency modes, a synchronisation pulse is sent on every trigger pulse, while in burst mode a synchronisation pulse is sent only on the first pulse of each burst. This allows recording to be synchronised to the start of each burst, rather than activating the recording system on every pulse within a burst.\nMost commercial EMG systems use a falling-edge signal to trigger recording. The synchronisation signal is therefore held at 5V. When sending a synchronisation pulse, the output is pulled down to 0V for 25\\(\\mu\\)s. This will trigger recording.\nNote that EMG systems vary in the format and pinout of their trigger connectors. This may therefore require a custom cable, e.g. a BNC to 9-pin sub-D connector cable, to connect the synchronisation signal output to the correct input pin on the target recording system.\nExamples of the synchronisation output for each stimulation type are shown in the triggering section.\n\n\n\n\nOxford Neural Interfacing 2023\n\n\n\n\n\n\n\nOxford Neural Interfacing 2023"
+  }
+]
