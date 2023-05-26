@@ -39,7 +39,7 @@ behaviours: `normal` mode for tonic stimulation at low frequencies;
 `high frequency` mode for tonic stimulation at multiple kilohertz; and
 `burst` mode for stimulation using bursts of high-frequency pulses.
 
-Further detail is provided in the [`triggering`](./trigger.html)
+Further detail is provided in the [`triggering`](./triggering.html)
 section.
 
 ## Example applications
